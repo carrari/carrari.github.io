@@ -2,23 +2,57 @@
 
 main {
 	/* background: #fba718; */
-	background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), -webkit-linear-gradient(0deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), #fba718;
-  background: -moz-linear-gradient(0deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), -moz-linear-gradient(90deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), #fba718;
-  background: linear-gradient(0deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), linear-gradient(90deg, rgba(255,255,255,0.298039) 1px, rgba(0,0,0,0) 1px), #fba718;
-  background-position: -1px -1px;
-  -webkit-background-origin: padding-box;
-  background-origin: padding-box;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-background-size: 20px 20px;
-  background-size: 20px 20px;
-	color: #1E1E1E;
+	background: -webkit-linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0.298039) 1px,
+			rgba(0, 0, 0, 0) 1px
+		),
+		-webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.298039) 1px, rgba(
+						0,
+						0,
+						0,
+						0
+					)
+					1px),
+		#fba718;
+	background: -moz-linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.298039) 1px,
+			rgba(0, 0, 0, 0) 1px
+		),
+		-moz-linear-gradient(90deg, rgba(255, 255, 255, 0.298039) 1px, rgba(
+						0,
+						0,
+						0,
+						0
+					)
+					1px),
+		#fba718;
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.298039) 1px,
+			rgba(0, 0, 0, 0) 1px
+		),
+		linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0.298039) 1px,
+			rgba(0, 0, 0, 0) 1px
+		),
+		#fba718;
+	background-position: -1px -1px;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: 20px 20px;
+	background-size: 20px 20px;
+	color: #1e1e1e;
 }
 
 .icons-social a {
-	color: #1E1E1E;
+	color: #1e1e1e;
 }
 
-.icons-social a svg path{
-	fill: #1E1E1E;
+.icons-social a svg path {
+	fill: #1e1e1e;
 }
